@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug expenses with CSV stdin",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_expenses.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "Sales",
+                "2021",
+                "--expense_type",
+                "software"
+            ]
+        }
+    ]
+}
